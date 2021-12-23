@@ -1,0 +1,121 @@
+<html>
+<head> 
+<STYLE type="text/css">
+body, html, div, p, i, strong, table {
+color: #505050;
+text-align: left;
+float: left;
+font-size: 13px;
+line-height: 1.4em;
+background-color: #fff;
+margin: 30px 30px 30px 30px;
+font-family: "Segoe UI", Arial,Helvetica;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Segoe UI", Verdana,Arial;
+font-weight: 500;
+padding: 0;
+}
+h1{
+background: #EFEFEF;
+border-bottom: 9px solid #DDD;
+color: #e10000;
+font-size: 18pt;
+padding: 10px 55px;
+font-weight: 400;
+margin: 0 0 15px 0;
+line-height: 1.2em;
+}
+
+h2 {
+font-size: 14pt;
+color: #444;
+margin: 24px 0 12px 0;
+padding: 3px 0;
+border-bottom: 1px solid #ddd;
+line-height: 1.2em;
+display: block;
+}
+a:visited {
+color: #db4848;
+}
+a:link {
+color: #e10000;
+}
+</STYLE>
+</head>
+<body>
+
+<h1>Getting Started with Mobile Testing in Android</h1>
+Simply follow the steps below to start the sample for mobile testing with Android.
+<ol>
+	<li><a href="#Step0">Connect the device (USB/Wi-Fi)</a></li>
+	<li><a href="#Step1">Add the device in Ranorex</a></li>
+	<li><a href="#Step2">Set the name of the device as a parameter value</a></li>
+	<li><a href="#Step3">Run the sample</a></li>
+	<li><a href="#Step4">Confirm dialog on device (Wi-Fi only)</a></li>
+</ol>
+To execute your Android test with Ranorex Remote click <a href="#Remote">here</a>.
+<br />
+
+<a name="Step0"></a>
+<h2>Connect the device</h2>
+There are two ways to allow communication between mobile devices and Ranorex, namely via a USB connection and over Wi-Fi. 
+
+<a name="Step1"></a>
+<h2>Add the device in Ranorex</h2>
+If the endpoints pad is not visible in Ranorex Studio, please open it by clicking the "View Endpoints" button in the toolbar (see screenshot below).<br /> <br />
+
+	<img src="Images\ViewEndpointsStudioToolbar.png" border="1">	<br /><br />
+
+	To add a mobile device as an <a target='_blank' href="https://www.ranorex.com/support/user-guide-20/endpoints.html">endpoint</a>, simply follow the <a target='_blank' href="https://www.ranorex.com/support/user-guide-20/endpoints/adding-android-endpoint.html">instructions</a> in our user guide.<br /><br />
+
+	
+
+	<a name="Step2"></a>
+	<h2>Set the name of the device as a parameter value</h2>
+Once you have added a mobile device, the last step before you run this sample is to set the value of an existing global parameter to the name of the newly added device. To do this, open the "Global Parameters" in the context menu of the Test Suite (see screenshot below).<br /><br />
+	<img src="Images\GlobalParametersTestSuiteScreenshot.png" border="1"><br /><br />
+	Now simply set the value of the parameter "Global_DeviceName" to the name of your mobile device (see screenshot below).<br /><br />
+	<img src="Images\GlobalParametersSetDevicename.png" border="1"><br /><br />
+		<b>Note:</b> If your mobile device is connected via Wi-Fi, please refer to the last step for information.<br />
+	
+	<a name="Step3"></a>
+	<h2>Run the sample</h2>
+	Make sure your local machine is set as <a target='_blank' href="https://www.ranorex.com/support/user-guide-20/endpoints/endpoint-list.html">automation root</a> in the <a target='_blank' href="https://www.ranorex.com/support/user-guide-20/endpoints/endpoint-list.html">endpoint list</a>.<br/><br/>
+	<b>Now the sample is ready to be replayed.</b> Click the <em>Run</em> button in Ranorex Studio to start mobile test automation on Android.
+		
+	<a name="Step4"></a>
+	<h2>During test run confirm dialog on device (Wi-Fi only)</h2>
+	
+	The first action in the mobile sample deploys the application (app) to the mobile device. If your mobile device is connected via Wi-Fi, you next need to confirm the dialog on the device itself. The dialog asks whether the application should be installed. Simply touch the 'Install' button (see screenshot below).<br /><br />
+	
+	<img src="Images\ConfirmInstallationOfAPK.jpg" border="1"><br /><br />
+	
+	<a name="Remote"></a>
+	<h2>Executing mobile tests with Ranorex Remote</h2>
+Note: Please make sure you have successfully completed the instructions 1. to 3. from above and your mobile device is connected to the remote computer via USB or Wi-Fi! <br/><br/>
+Before you can start executing your Android test cases with Ranorex Remote, you need to prepare your remote computer to match the Ranorex Studio configurations. <br/><br/>
+Follow the steps below to do so: 
+<ol>
+	<li>Connect to the remote machine, on which you've previously installed Ranorex Remote.</li>
+	<li>Start the application 'Ranorex Settings'.</li>
+	<li>On the tab page 'General', press the button 'Mobile Devices...' to manage the mobile device connections on your remote computer.</li>
+	<li>Please follow the wizard instructions.<br/>Attention: The display name in Ranorex Remote needs to exactly match the one provided in Ranorex Studio.</li>
+	<li>Once you've successfully added your device(s), close 'Ranorex Settings' and switch back to Ranorex Studio.</li>
+</ol>
+
+Follow the steps below to run your mobile tests with Ranorex Remote:
+<ol>
+	<li>Add the Ranorex Agent, running on the remote computer, to your agent list in Ranorex Studio.</li>
+	<li>Select the run configuration you want to be executed on the remote computer.</li>
+	<li>The test cases will be executed on the remote computer. You can use your computer during the test execution.</li>
+</ol>
+The following screenshot visualizes how a remote test execution is started using the run configuration 'RunAll' on the remote agent 'Product Samples Agent'.<br /> <br /><img src="Images/RunTestOnRanorexRemoteScreenshot.png" border="1">
+
+
+	<br /><br />
+	
+	For additional help, please refer to the section on <a target="_blank" href="http://www.ranorex.com/support/user-guide-20/Android-testing.html">Android Testing</a> in our <a target="_blank" href="http://www.ranorex.com/support/user-guide-20.html">Test Automation Guide</a>.
+</body>	
+</html>

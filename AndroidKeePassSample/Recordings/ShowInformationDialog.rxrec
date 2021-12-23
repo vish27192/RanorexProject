@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="65b299bd-ce9c-4f13-b581-242d2eb44b07"
+mode="Global"
+rxversion="9.0">
+	<name>
+		ShowInformationDialog
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ShowInformationDialog"
+	namespace="AndroidKeePassSample.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ShowInformationDialog"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ShowInfo"
+		namespace="AndroidKeePassSample.Recordings"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="179a9e43-4e43-411c-a625-e51338c39e05">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="3541a0a5-3b65-4487-8db1-b179031c1d1b"
+	name="AndroidKeePassSampleRepository"
+	relativepath="..\AndroidKeePassSampleRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="AndroidKeePassSampleRepository"
+		namespace="AndroidKeePassSample">
+		</codegen>
+		<rootfolder
+		id="b2165425-9a13-456e-bd7f-39fff1070cf5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ShowInformationDialog.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

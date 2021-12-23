@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4a413563-1cc6-48ac-9dbd-bf308f2f8909"
+mode="Mobile"
+rxversion="9.0">
+	<name>
+		CloseApp
+	</name>
+	<description>
+		The CloseApp recording.
+	</description>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseApp"
+	namespace="AndroidKeePassSample.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		duration="1000ms"
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="125cedf8-16f6-4b3c-ac3b-17f61f63dfea">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c00377a1-b507-499c-9886-5e7f4c91803d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="mobileapp, androidapp"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="10"
+				prefcap="mobileapp"
+				rect="0,0,800,1205"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="devicename"
+					type="System.String">
+						cfNexus 7
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						KeePassDroid
+					</attribute>
+					<attribute
+					name="osversion"
+					type="System.String">
+						Android 4.2.1
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						com.android.keepass
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="3541a0a5-3b65-4487-8db1-b179031c1d1b"
+	name="AndroidKeePassSampleRepository"
+	relativepath="..\AndroidKeePassSampleRepository.rxrep"
+	rxversion="6.0">
+		<codegen
+		classname="AndroidKeePassSampleRepository"
+		namespace="AndroidKeePassSample">
+		</codegen>
+		<rootfolder
+		id="b2165425-9a13-456e-bd7f-39fff1070cf5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5f7a07e0-8f71-497c-80ab-4a2beff35e17"
+mode="Mobile"
+rxversion="9.0">
+	<name>
+		AddGroup
+	</name>
+	<description>
+		The AddCategory recording.
+	</description>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddGroup"
+	namespace="AndroidKeePassSample.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="700be616-289f-4ecd-ae55-e4c1db9eb018"
+		name="varGroupName">
+			Ranorex
+		</var>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		imagerect="0,1033,145,64"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="2fa0217a-aab6-4145-8d11-d9bca0ebf1c6"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="215f1f0f-a7cd-409f-b4f0-f3d3caa20554"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="button"
+				rect="0,1141,145,64"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Add group
+					</attribute>
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.string.add_group
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						add_group
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1098373104
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[@title='GroupActivityV3']/container/androidelement/container/button[@resourceid='R.string.add_group']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ff83595f-e23e-493a-ab5f-542ec1979fc2">
+				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
+AxMgnZZRA3jVAAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<setvaluerecorditem
+		attrname="Text"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a1fd3363-514d-4105-a703-e9d253fe577f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="varGroupName">
+				</binding>
+			</bindings>
+			<info
+			id="1535fdc8-db09-4b6f-922c-f6f14cca48b2"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="16,99,670,53"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						8
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Ranorewx
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						group_name
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.EditText
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1098633560
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[2]/container/container/text[@rid='group_name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="cb6e2c7e-0abd-43e7-8fd0-fbaf112b7dec">
+				iVBORw0KGgoAAAANSUhEUgAAAp4AAAA1CAYAAADoMuuXAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAALUUlEQVR4Xu2dfYhlZR3HLyyCEIMsRBFLERvGRi9S/VUK
+ixi9Z5JuWxqtlSKhhrJlRVHQexltSbU7m1piWCmoubmGb2uZbe3MbMFiZtqWa7XiWOHs7Ozq3dnp
++z39nsszh3Pnvszses+dz4Uf59zn/fmc58CX3/NyGg1+EIAABCAAAQhAAAIQgAAEIAABCEAAAhCA
+AAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhAAAIQgAAE
+IAABCEAAAhCAAAQgAAEIQAACEBhcAnNzcytkI7KVcV0xuK2lZRCAAAQgAAEIQAACtSUQYnOVrqtl
+vo7UtjM0HAIQgAAEIAABCEBgcAmEp9Oi0z9fVw5ua2kZBCAAAQhAAAIQgEBtCSA8a/voaDgEIAAB
+CEAAAhCoFwGEZ72eF62FAAQgAAEIQAACtSWA8Kzto6PhEIAABCAAAQhAoF4EEJ71el60FgIQgAAE
+IAABCNSWAMKzto+OhkMAAhCAAAQgAIF6EUB41ut50VoIQAACEIAABCBQWwIIz9o+OhoOAQhAAAIQ
+gEA7AjMzMy+uMB9YfiLUnjsCCM/njj01QwACEIAABCBwDAgcPnz4ZQcOHJhrY0cV/uTU1NQdBw8e
+fPsxqJ4iFyCA8GR4QAACEIAABCAwVARy4SmB+aiE5h8z26f7ZojS5vT09MeHqvMD3hmE54A/IJoH
+AQhAAAIQgEBvBHLhKWG5oZxbns7XSZCOhfic0fUVvdVA6n4JIDz7JUc+CEAAAhCAAAQGkkAn4elG
+W2xmns/PDWRHhrBRCM8hfKh0CQIQgAAEILCcCXQjPM1HXs+/2+spr+jVZV6KWyO7Vvaw7N9K9y/Z
+fUr7oXJaha9Xmt/IrnOc0lyusN2ySZmn9m+Wl/W17Z6J4l8g2yTbE3n+qeuOqrpCNKf6rpeQO0Fp
+v626/2bL69D/5ztO9pDun3J/ZT/X/7V5OtVzvtuv8F+pvJPyOP1/nsLvld1/6NChl1Rw2u68KmOj
+7DUuI1h8qoLTZxS3U+l2zc7Oqui51Raiy3ms0ncIQAACEIAABGpOoAfhaUE5JzH0zZIQe3OIzbRB
+6aDSeVNS+r+5lH5jxO2zWI17p8/zTFqYldE6THn2ZmW7rrQG1fX9uCJPqu9Jxf805VU5f0lpQzg/
+nJV7KLv38oL1Ka12/78xxak97y/1bUNW/hV5nMT067N854YovjGYPu3nUGqPogqhf6dVJ8Kz5i8a
+zYcABCAAAQhAoNHoRnhKmF0Qomm27AFU3F8jbo/uTzVTlbla97cnUSnxdEZibW9fVtY+eyolqkYk
+zF6kPJ/OhORP8ucT3kp7Ri0w/yF7j+PtqZR9IxOu85YCZPUdVbpppdssu1Th56Xy9X88yn1cac50
+eIjcByJ8v9uYpX8swr+ft1FhhZAMu6ckSj8RInPKnlHHScSuUtj+SP+zrPybI2yy2WyehvDkTYUA
+BCAAAQhAYCgIlITn1yR43hu2XteLYgrdgs2CalPeaeU9Oaat90qovbUkFE9S3FSIrSsrhOdRCa83
+lCHG9LY9q+Wp8AuTqEvisI3om8xFYiY87T2smvq/KAlhid93lPpnAZ36fmkmDG+Ifu0qteEJ9zk8
+wDMWxVmem6Keu/M8SvPhCLfn9nS14W26WuC7vZeHpxOP51C8bXQCAhCAAAQgsMwJdDjHM3nvZvs5
+Skmi6s8h0K6tEJ6zVehVz1cjz3RJoN0WAm1PVT7VdVoSpirjA93Wl3lmH6wqV2UmL2trGt8CNuqa
+SSLXYjjavVPXeyL+o6lMxT8SYZ+tENvbIu9vdS28r0q/nc1Fy/zlpPsQgAAEIACBYSNQOsfzdxI8
+v0gmAbRD5rWRFqBe93hJu/7b4+mpck97y75lU/onQkT9sAch+Mmo79mSN/FPEX5TuzYk76SuX++h
+vrS2c1L5dlXYf6LeX6YyvalIYV77aS7nOFz5ron/V+n6pej3Nsf5q1DhxfQ61leW2++lCQr35qpC
+6Ntj6ueC8By2t43+QAACEIAABJY5gU5rPCWEvIvcAtSiaEa7tV+aI5PgPFdCKa3zrPwCkuKXQng+
+Hm343gLCs9h5L9vSrfBUWq8Xbfflpjx83ppN5fl1EpohPNOmp7UKf5XMa0r/68+O6prWyD7Uru1K
+/+VMeBbCGeG5zF9Oug8BCEAAAhAYNgKdhGeIqjUWUuGNa+3W9ppIhT0bgskeyY95I5F3ftskuPwl
+JHvwFi08s7KuX0B4PhVtaa1FzTczVeVTuUkw3qK0p7QzeyXz/Krni9G3nWmaX9fWulTF+QtQXqd5
+nuzqaNcPqtpgD2rqX5S512EIz2F72+gPBCAAAQhAYJkT6EZ4GpEEkc/mtAfwqoRMYmlbhHl3+gvL
+KBVXTI8vhfDMPIz3VT0y74pP4lhtuSyl6UJ4ek2m+7Wjl6HgLzpF3w54eUHcX5OxuTLCrtM17Zo/
+u6oOxW+NNjyWr4tFePbyREgLAQhAAAIQgMDAE+hWeNqbF+KoNY2dCapbyx11ucrz9FIJTwnIr0T9
+KvrwyRUiN01VN1Xvmm6Fp8r0YfQWx9PlZQSdHl7mpfyDy5AYfVfKE+d2err99zKLU0+7n1AuM3ax
+F2eRxpT8uhDQTXmN38eu9k5PgXgIQAACEIAABGpDoAfhWezKzr2Xut+ePJ4+kzITe29SXOtAdt3/
+qFshqLSVm4u8QUdxxUYf15vOwnS5PpZJ4WlzzjwR3MnjGUdCKXvh9bzFazLzh6f87ktrV34ep3B7
+M9M60P0VYtge33TAfWtzUkrnPmSc7k/hCrsj+ukp91dzjmdtXicaCgEIQAACEIDAQgR6EJ5jIbLu
+ykTkB9P0tj16Mu8Kt0C1p++RTFTduFjh6fwqz2dePpPErv77k5Z3y4od5vbKVmx+2hjpK49vcrmK
+vyQTiPtUzm02he3J+ndWmaPXb2bCc96B91Hud1K8ypv3JaOI/27EP6P44vB9/7zONPVJ9zcgPHmH
+IQABCEAAAhAYCgI9CE8fj1Qcq+SNQ6nz+v8FiabioPgwT3XfbgGYPHcKn1gK4Rli7RyV92BWn+u1
+cNumvry8Qhx2FJ4h9iwi05FNrd3sKvdRe02rHnZ4LJXt/5uIymksJpPozT+JGfWdkUR0lUdVcf5u
+vNvRPHLkCAfID8XbRicgAAEIQAACEFg0Ae/A1lrFd0okrataf7noCioKCK/gOom2M72xaKnq8Kcy
+1Q+L27N9v1Tl9lMOm4v6oUYeCEAAAhCAAAQgAIGeCSA8e0ZGBghAAAIQgAAEBpVAabq6m0PUSdPd
+YfNLzil2t68c1LFEuyAAAQhAAAIQgMCCBDw1jg0uA031n69lBBc3m82jCE9eZghAAAIQgAAEIACB
+Y0aAqfZjhpaCIQABCEAAAhCAAARyAghPxgMEIAABCEAAAhCAwHEhgPA8LpipBAIQgAAEIACBvgiM
+jm9obBnf0dg81jqMvK9yyDQQBCQ8R2SrYn2nryMD0TAaAQEIQAACEIDAcBLYsvuUQkuOTlzcuYOj
+E59vjI7PNbaMvbtzYlIMOgEJzRUhPlfGdcWgt5n2QQACEIAABCBQYwJbd68ttOTo2KbOvUB4dmZE
+CghAAAIQgAAEIACBagIIT0YGBCAAAQhAAAIQgMBxIdCX8ByduKxRzNFjMGAMMAYYA4wBxgBjgDHA
+GOh2DIx9pPep9mJuHoMBY4AxwBhgDDAGGAOMAcZAP2OgmzWeWyfeUiwGxWDAGGAMMAYYA4wBxgBj
+gDHQ9xgYP+u4TO1TCQQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAA
+BCAAAQhAAAIQgMCiCPwPWleGcNY8AZsAAAAASUVORK5CYII=
+			</helperscreenshot>
+			<AttributeValue>
+				Ranorewx
+			</AttributeValue>
+		</setvaluerecorditem>
+		<remotekeyboardrecorditem
+		duration="500ms"
+		enabled="True"
+		key="{ENTER}"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="dcd3530a-d3d1-40b5-8aee-cd9a975a0984">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c00377a1-b507-499c-9886-5e7f4c91803d"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.android.keepass']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
+		<remotekeyboardrecorditem
+		duration="500ms"
+		enabled="True"
+		key="{ENTER}"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="dcd3530a-d3d1-40b5-8aee-cd9a975a0984">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c00377a1-b507-499c-9886-5e7f4c91803d"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.android.keepass']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
+	</recorditems>
+	<repository
+	id="3541a0a5-3b65-4487-8db1-b179031c1d1b"
+	name="AndroidKeePassSampleRepository"
+	relativepath="..\AndroidKeePassSampleRepository.rxrep"
+	rxversion="6.0">
+		<codegen
+		classname="AndroidKeePassSampleRepository"
+		namespace="AndroidKeePassSample">
+		</codegen>
+		<rootfolder
+		id="b2165425-9a13-456e-bd7f-39fff1070cf5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddGroup.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

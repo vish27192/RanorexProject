@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="160b2cac-1f7f-415a-80af-438b6ea9ccf7"
+mode="Mobile"
+rxversion="9.0">
+	<name>
+		RunApp
+	</name>
+	<description>
+		The RunApp recording.
+	</description>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RunApp"
+	namespace="AndroidKeePassSample.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="b07de26f-29ed-4c80-b141-170164ede259"
+		name="varDeviceName">
+			Android Device
+		</var>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.android.keepass"
+		devicename="cfNexus 7"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="DeviceDisplayName"
+				variable="varDeviceName">
+				</binding>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="3541a0a5-3b65-4487-8db1-b179031c1d1b"
+	name="AndroidKeePassSampleRepository"
+	relativepath="..\AndroidKeePassSampleRepository.rxrep"
+	rxversion="6.0">
+		<codegen
+		classname="AndroidKeePassSampleRepository"
+		namespace="AndroidKeePassSample">
+		</codegen>
+		<rootfolder
+		id="b2165425-9a13-456e-bd7f-39fff1070cf5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RunApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="02aa671f-201d-4994-9f21-8ee7e41ed204"
+mode="Global"
+rxversion="9.0">
+	<name>
+		AddEntryByUsercodeAction
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddEntryByUsercodeAction"
+	namespace="AndroidKeePassSample.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="da583ac7-9ed2-4def-a86e-48a0d0839bff"
+		name="varTitle">
+			WordPressDemo
+		</var>
+		<var
+		id="1899110a-905e-420e-9f1b-12d6dd6885c3"
+		name="varUsername">
+			admin
+		</var>
+		<var
+		id="554a2393-2968-4679-a78a-9627e27649ad"
+		name="varURL">
+			http://bitly.com/wp_demo
+		</var>
+		<var
+		id="25796c23-99eb-47a2-8f89-0bbf0797a7ce"
+		name="varPassword">
+			demo123
+		</var>
+		<var
+		id="18d2ff01-592a-486d-abcd-09e93af66cac"
+		name="varIconIndex">
+			5
+		</var>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		imagerect="57,0,1151,57"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="b5d67071-7793-4990-ad47-99fc64dda591"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ef7d31e5-41cc-4297-9458-b692e8ea8d4b"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="57,215,1151,57"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Internet
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Internet
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						group_text
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.TextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1107914536
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[@title='GroupActivityV3']/container/androidelement/container/list/androidelement[2]/table/row/text[@caption='Internet']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3b23097e-0ffb-4fbc-b15c-b7881e9cd489">
+				iVBORw0KGgoAAAANSUhEUgAABH8AAAA5CAYAAACvZYfgAAAABHNCSVQICAgIfAhkiAAAAAFzUkdC
+AK7OHOkAAAAEZ0FNQQAAsY8L/GEFAAAJTklEQVR4Xu3dTagVZRgHcDdCEBJEuIlaGEJRGAS5cFGB
+u6CICgQjhARBKI0WgbRpU4vQW4YYEdTCqDCCCLdFRESB4MI+V/ahFUmKfZepPS/MiZfXOWfuOTPX
+M/ec38DDvXPmnfe8z2/mbv7MOXfFChsBAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBA
+gAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAAB
+AgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQI
+ECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBA
+gAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAAB
+AgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQI
+9F7gwoULd0btzGpl7xdtgQQIECBAgAABAgQIECBAgAABAosTiNDnYFS+rVrcmUYRIECAAAECBAgQ
+IECAAAECBAj0XmCa4U+89/qorVmt7j1YjxfIs8cXx9IIECBAgAABAgQIECBAgMC0BKYc/iwUTx1t
+mJbDLLxvWPKchQupBwIECBAgQIAAAQIECBAg0KWA8KdLzenOJfyZrr93J0CAAAECBAgQIECAAAEC
+vRQQ/vTysky0KOHPRGxOIkCAAAECBAgQIECAAAECsy0g/Jmd6yv8mZ1rqRMCBAgQIECAAAECBAgQ
+INCZwGLCnxizOeq1qnYP3jz2b4raH3Uk6vuo41GHo/ZGralbZLy+PZsrnZdv72THnhvVZIxbG/VM
+1CdR30b9GPVl1NtR2xrOzfvZk/WzKc59r5rvRPy8NzvWmcGwtU3SU1eend1QJiJAgAABAgQIECBA
+gAABAgT6JRDhQeO/eq9ClkFIcyJ1EDuPRv1WhDf57pnY2VJ2G68dGHFOfujYiJBkVwxM84/ajsTB
+dUMCqBQaDbaTVT/7aia7PQt/8nNaGQxZ00Q9deHZrzvSaggQIECAAAECBAgQIECAAIFOBSYIf36P
+cx6JOr+IEOfPGLMxX3DbsCLOf77mfdP7/FKzpvRE0HU1AVQe5KQ+nqiZ82y8dvmQ8KeVQc16Ju6p
+rWenN5PJCBAgQIAAAQIECBAgQIAAgf4JTBD+pJwkhR8/R+2O2hB1RdTVUQ9FfVoEKR8U4c81cfzm
+ql4sxt6XHbu+JiRJoVO+HYudB6NWprHxc13Uq8WYQw3hTxr+d3XO0fj5etTLUS8V684Do1YGxbyt
+eoqFTOzZv7vRiggQIECAAAECBAgQIECAAIHOBSI8GPdjXyn4+CYFLXWLidevikqhzGA7F79c9PRN
+FdYsFEHNhmENxrgULuUf9fppxLz5R8vS+69vCHJS+LNjFG4cL8Of1gZd9jSuZ+c3kgkJECBAgAAB
+AgQIECBAgACBfgpMGP5sbghKnipCna1DgqJxwp89xZyPjQiKro2x6aNgg21/Q/izt+nq1IQ/rQ1i
+zs56Ev40XUHHCRAgQIAAAQIECBAgQIDAnApMGP78/0XIQ0Kde4qg5skOwp/PszlPN12uGJv+69hg
++6gh/BnZTxWslE/+tDaIxXXWk/Cn6Y5wnAABAgQIECBAgAABAgQIzKnAEoU/6XuA8m2hTfhTfTzq
+32zC95suV4w9lI0/PoXwZ6RB1z0Jf5ruCMcJECBAgAABAgQIECBAgMCcCixR+HNrEf7Ufqwqxizq
+Y18xbmMx31+xf6qhBl/inE49M4XwZ6RB1z0Jf+b0D1jbBAgQIECAAAECBAgQIECgSWCZhD+bivBn
+3N0/ehj+dNqT8KfpTnecAAECBAgQIECAAAECBAjMqcAyCX/Sv3PPt19j5+QY9V0Pw59OexL+zOkf
+sLYJECBAgAABAgQIECBAgECTwDIJf+4uwp89TX2NOh5zjfXlzVWwMtY58R5NH/vqtCfhT5s7wrkE
+CBAgQIAAAQIECBAgQGCGBZZJ+FMGKa+0uSQ9CX867Un40+aOcC4BAgQIECBAgAABAgQIEJhhgeUQ
+/lTBxuns6Z+P21ySPoQ/Xfck/GlzRziXAAECBAgQIECAAAECBAjMsMAyCn/ezcKff+L3tZNelh6F
+P531JPyZ9G5wHgECBAgQIECAAAECBAgQmHGBKYc/Txff5XPXMO4Yt6UY+0bTpYnxV0bdWI7rUfjT
+WU9V+LNozyY7xwkQIECAAAECBAgQIECAAIEZEZhy+PNwEei8MIo1xh4uxi/E/sq6c+L1B6K+ivqw
+r+FPFdh00lM111ieM3ILa4MAAQIECBAgQIAAAQIECBBoCFQOFoHKqrZhSdN/uhrMH+NuiDqbvf/5
+FNZEvRX1bM06bonXTxXrPRb7B6J2R+2rzv26GLM9n6svT/5UgU0nPVVzjeXpL4MAAQIECBAgQIAA
+AQIECBCYA4FpPvlTBRZvFkHNYPeLOv44eFvU8SHn1L38WQqj+hr+VAate8oCtbE85+AW1yIBAgQI
+ECBAgAABAgQIEJhvgR6EP+l7edKTPueK5ObEsCsT41ZXT/n8MCQESnMdjXo86rJynj49+ZOFNq16
+yuYZ23O+/wJ0T4AAAQIECBAgQIAAAQIECFwSgQhk1kXtqAKb++PnRR8/q1tIjLsjalvUrqidUem7
+ftZckkUv0Zt00dOknkvUkmkJECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBA
+gAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAAB
+AgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQI
+ECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBA
+gAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAABAgQIECBAgAAB
+AgQIECBAgACBaQj8B3nRQvIes0mnAAAAAElFTkSuQmCC
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		imagerect="145,564,136,64"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="69acfa07-77d4-4d48-b5a0-d96c65dbc2cb"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ce373854-8e5a-4a4f-ad49-5adac2e7c60f"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="145,672,136,64"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Add entry
+					</attribute>
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.string.add_entry
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						add_entry
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1108724280
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[@title='GroupActivityV3']/container/androidelement/container/button[@resourceid='R.string.add_entry']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e19ca167-7d82-4671-a462-4026da1afc50">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+		<userrecorditem
+		classname="AddEntryByUsercodeAction"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="AddEntryWithParams"
+		namespace="AndroidKeePassSample.Recordings"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f1938a5d-de7c-4f4c-aa4b-64cbba6dce3b">
+				<argument
+				argname="aTitle"
+				id="f1d29d3c-2cbb-4d76-9275-a02a83412525"
+				variable="varTitle">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="aUsername"
+				id="b6cc386d-23c8-4f7c-b27f-1258964ce48e"
+				variable="varUsername">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="aPassword"
+				id="12c2822d-3940-45d1-bd59-4d535ad00250"
+				variable="varPassword">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="aURL"
+				id="e71696a8-d838-45b8-a0ea-8a3fe7aef50b"
+				variable="varURL">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="aIconIndex"
+				id="dabe007c-051e-4865-80ac-d7d76856a0c1"
+				variable="varIconIndex">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		imagerect="0,226,85,64"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="81262614-ca6c-44c8-b082-3f73d3b47807"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3972fa74-553d-40db-8234-ec66bdb41628"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="0,334,85,64"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.string.entry_save
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						entry_save
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.widget.Button
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1107944240
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[@title='EntryEditActivity']/container/container/button[@resourceid='R.string.entry_save']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5a3c1af0-97f3-43ad-a6a7-681e9fadb93d">
+				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
+			</helperscreenshot>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="3541a0a5-3b65-4487-8db1-b179031c1d1b"
+	name="AndroidKeePassSampleRepository"
+	relativepath="..\AndroidKeePassSampleRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="AndroidKeePassSampleRepository"
+		namespace="AndroidKeePassSample">
+		</codegen>
+		<rootfolder
+		id="b2165425-9a13-456e-bd7f-39fff1070cf5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddEntryByUsercodeAction.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
